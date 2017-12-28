@@ -39,8 +39,9 @@ Further parameters for strategies.\cr
  and \code{FixedCV}. Default is 1}
 \item{initial.window [\code{numeric(1)}]}{Fraction of observations to start with
  in \code{GrowthCV} and \code{FixedCV}. Default is 0.5}
-\item{skip [\code{integer(1)}]}{ The number of windows to skip in
- \code{GrowingCV} and \code{FixedCV}. Default is horizon - 1}
+\item{skip [\code{integer(1)}]}{ How many resamples to skip to thin the total amount
+ for \code{GrowingCV} and \code{FixedCV}. Default is horizon - 1 which gives
+ mutually exclusive chunks of test indices.}
 }}
 
 \item{stratify}{[\code{logical(1)}]\cr
