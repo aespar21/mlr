@@ -113,6 +113,15 @@ See \code{\link{ResampleDesc}}.}
 
 \item{split}{[\code{numeric(1)}]\cr
 See \code{\link{ResampleDesc}}.}
+
+\item{horizon}{[\code{numeric(1)}]\cr
+See \code{\link{ResampleDesc}}.}
+
+\item{initial.window}{[\code{numeric(1)}]\cr
+See \code{\link{ResampleDesc}}.}
+
+\item{skip}{[\code{integer(1)}]\cr
+See \code{\link{ResampleDesc}}.}
 }
 \value{
 [\code{\link{ResampleResult}}].
